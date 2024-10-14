@@ -87,7 +87,7 @@ const Scroll = () => {
         <div className='pt-28'>
 
           <a href='/' className='text-zoomed'>
-            Home saD
+            Home
           </a>
 
           <a href='/contact' className='text-zoomed'>

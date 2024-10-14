@@ -14,18 +14,16 @@ import Aos from 'aos';
 // import SmoothScrollContainer from './component/Smothscolling';
 // import useSmoothScroll from './component/Smothscolling';
 import Scroll from './component/Smothscolling';
-import Header from './component/Header';
 
 const Loader = () => {
   return <div className="loader">
-    <video loop autoPlay muted className='video w-full'>
-      <source src='/assets/images/Comp2.mp4' type="video/mp4"></source>
-    </video>
+      <video loop autoPlay muted className='video w-full'>
+                <source src='/assets/images/Comp2.mp4' type="video/mp4"></source>
+      </video>
   </div>;
 };
 function App() {
-  const [loading, setLoading] = useState(true)
-  const [stateNumber, setstate] = useState('red')
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // Simulate page loading delay
@@ -40,16 +38,7 @@ function App() {
   // Scroll()
   return (
     <div>
-
-      {stateNumber}
-      <h2 style={{ color: stateNumber }}>Husssain</h2>
-
-
-      {/* <Header /> */}
-
-
-
-      {/* {loading ? (
+      {loading ? (
         <Loader />
         ) : (
           <>
@@ -62,7 +51,7 @@ function App() {
               <Route path='/portfolios' element={<Portfolios />} />
             </Routes>
         </>
-      )} */}
+      )}
     </div>
   );
 }
