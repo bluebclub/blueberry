@@ -1,8 +1,7 @@
-html {
-  /* overflow-x: hidden; */
-}
-
 body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'product-regular';
   /* overflow-x: hidden; */
 }
 
@@ -13,6 +12,11 @@ body {
 
 :root {
   --cursor-color: #fff;
+}
+
+.border-color{
+  border-color: rgba(243, 243, 243, 0.3);
+  
 }
 
 
@@ -54,24 +58,39 @@ input:focus {
 }
 
 .container {
-  max-width: 90%;
+  max-width: 70%;
   width: 100%;
   margin: 0 auto;
 }
 
+.opacity-400_b{
+   border-color: rgba(243, 243, 243, 0.4);
+}
+
 @font-face {
   font-family: 'Product-bold';
-  src: url('./assets/fonst/Product-Sans-Bold.ttf');
+  src: url('./assets/fonst/Satoshi-Bold.ttf');
 }
 
 @font-face {
   font-family: 'product-regular';
-  src: url('./assets/fonst/Product\ Sans\ Regular.ttf');
+  src: url('./assets/fonst/Satoshi-Regular.ttf');
 }
 
 .productregular {
   font-family: 'product-regular';
 
+}
+
+.social-icon {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.social-icon li {
+  display: inline-flex;
+  margin-right: 15px;
 }
 
 .productBold {
@@ -85,9 +104,9 @@ input:focus {
 }
 
 .title-banner {
-  font-size: 8vw;
+  font-size: 5vw;
   font-family: Product-bold;
-  line-height: 9vw;
+  line-height: 6vw;
 }
 
 /* @media(max-width: 767px) {
@@ -115,6 +134,7 @@ input:focus {
 
 .text-zoomed {
   font-size: 1.2vw;
+  line-height: 3vw;
 }
 
 button.btn-email a {
@@ -134,10 +154,10 @@ button.btn-email a {
 .btn-email a:hover svg path {
   stroke: #000;
 }
-
+/* 
 .video {
   width: 100%;
-}
+} */
 
 .lorem-ipsum {
   font-family: product-regular;
@@ -611,12 +631,11 @@ ul.list-cofee label {
 @media (min-width: 1024px) {}
 
 .header-blurry {
-  background: hsla(0, 0%, 100%, .85);
+  background-color: #000;
   border-radius: 0;
   backdrop-filter: blur(19.7px);
   -webkit-backdrop-filter: blur(8.7px);
-  /* z-index: 0; */
-  /* height: 2vw; */
+
 }
 
 .app {
@@ -784,20 +803,15 @@ button.btn-linkdein img {
 
 .left-section {
   position: -webkit-sticky;
-  /* For Safari */
   position: sticky;
   top: 0;
   flex: 0 0 auto;
-  /* Prevent flex resizing */
   width: 800px;
-  /* Adjust width as needed */
 }
 
 .right-section {
   flex: 1;
-  /* Allow flex resizing */
   overflow-y: auto;
-  /* Enable vertical scrolling */
 }
 
 input:focus {
@@ -809,7 +823,6 @@ input:focus {
 
 input:focus {
   outline: none;
-  /* border: 1px solid #ccc; */
 }
 
 textarea:focus-visible {
@@ -1042,4 +1055,18 @@ textarea:focus-visible {
   /* Place content 60px from the top */
   transition: 0.5s;
   /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+.under-list{
+  margin: 0;
+  padding: 0;
+}
+
+.under-list li{
+  text-align: left;
+  font-size: 4vw;
+  line-height: 9vw;
+  font-family: 'Product-bold';
+  border-bottom: 1px solid #FFFFFF66;
 }

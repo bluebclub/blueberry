@@ -11,7 +11,7 @@ export default function Header() {
                             <img src='/assets/images/logo.svg' className='h-[3.3vw]' alt='' />
                         </a> */}
 
-                        <a href='/contact' className='text-zoomed'>
+                        {/* <a href='/contact' className='text-zoomed'>
                             Contacts
                         </a>
 
@@ -21,7 +21,7 @@ export default function Header() {
 
                         <a href='/portfolios' className='text-zoomed'>
                             Portfolio
-                        </a>
+                        </a> */}
 
                         <a href="/start" className=' flex items-center border-b-2 border-black text-zoomed'>
                             Start Intake

@@ -115,54 +115,41 @@ const Scroll = () => {
         </div>
       </div>
 
-      {/* <Drawer
-        open={isOpen}
-        onClose={toggleDrawer}
-        direction='right'
-        className='bla bla bla pt-8 mobile-only-m'
-      >
-       
-      </Drawer> */}
-      <header data-fixed className='header-blurry py-[0.8vw] fixed top-0 left-0 right-0 w-full'>
+
+      <header data-fixed className='header-blurry py-[0.8vw] w-full'>
         <div className='container mobile-hidden'>
           <div className='flex justify-between items-center list-section'>
-            {/* <div className='logo-main py-4 ml-2'> */}
-            <a href='/' className=''>
-              <img src='/assets/images/logo.svg' className='h-[3.3vw]' alt='' />
-            </a>
-
-            <a href='/contact' className='text-zoomed'>
-              Contacts
-            </a>
-
-            <a href='/expertises' className='text-zoomed'>
-              Expertise
-            </a>
-
-            {/*  */}
-
-
-            <a href='/portfolios' className='text-zoomed'>
-              Portfolio
-            </a>
-
-            <a href="/start" className=' flex items-center border-b-2 border-black text-zoomed'>
-              Start Intake
-
-
-              <svg className="h-[1.1vw] ml-2" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 13.75L13.75 4M13.75 4V13.36M13.75 4H4.39" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-
-            </a>
-            {/* </div>
-
-        <div> */}
-
+            <svg
+  width={42}
+  height={51}
+  viewBox="0 0 42 51"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g clipPath="url(#clip0_1_64)">
+    <path
+      d="M22.5174 51C33.2774 51 42 42.2822 42 31.5282C42 20.7743 33.2774 12.0564 22.5174 12.0564C11.7575 12.0564 3.03488 20.7743 3.03488 31.5282C3.03488 42.2822 11.7575 51 22.5174 51Z"
+      fill="#0B07A5"
+    />
+    <path
+      opacity="0.5"
+      d="M8.18003 4.08775C8.18003 1.83015 6.34887 0 4.09001 0C1.83116 0 0 1.83015 0 4.08775V46.9122C0 49.1698 1.83116 51 4.09001 51C6.34887 51 8.18003 49.1698 8.18003 46.9122V4.08775Z"
+      fill="#1783C6"
+    />
+  </g>
+  <defs>
+    <clipPath id="clip0_1_64">
+      <rect width={42} height={51} fill="white" />
+    </clipPath>
+  </defs>
+</svg>
+            <div>
+              <a href="/" className=' text-zoomed bg-white block text-center leading-[25px] h-12 w-32 rounded-xl m-auto'>
+                Get in Touch
+              </a>
+            </div>
           </div>
-
         </div>
-        {/* </div> */}
 
 
         <div className='lg:hidden'>
