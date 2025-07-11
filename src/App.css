@@ -139,6 +139,45 @@ input:focus {
   line-height: 6vw;
 }
 
+.logo-wrapper {
+  position: relative;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+}
+
+.logo.normal {
+  opacity: 1;
+  z-index: 1;
+}
+
+.logo.hover {
+  opacity: 0;
+  z-index: 2;
+}
+
+.logo-wrapper:hover .normal {
+  opacity: 0;
+}
+
+.logo-wrapper:hover .hover {
+  opacity: 1;
+}
+
+
+.title-banner-1{
+    font-size: 4vw;
+      font-family: Product-bold;
+  line-height: 6vw;
+
+}
+
 /* @media(max-width: 767px) {
   .title-banner {
     font-size: 2vw;
@@ -163,8 +202,8 @@ input:focus {
 }
 
 .text-zoomed {
-  font-size: 1.2vw;
-  line-height: 3vw;
+  font-size: 14px;
+  line-height: 45px;
 }
 
 button.btn-email a {

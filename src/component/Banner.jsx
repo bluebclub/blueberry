@@ -6,7 +6,7 @@ export default function Banner() {
             {/* lg:h-screen !pt-10 !pb-20 lg:py-0 !mt-[6.400000000000002vw] */}
             <div className='container lg:h-screen !pt-10 !pb-20 lg:py-0 !mt-[6.400000000000002vw]'>
                 <div>
-                    <h2 className='pt-[1.5vw]  title-banner text-center'>
+                    <h2 className='title-banner text-center'>
                         We craft immersive, human- <br />
                         centric digital Products.
                     </h2>
@@ -25,11 +25,13 @@ export default function Banner() {
                     </div>
                 </div>
 
+                
+
                 <div className=' mt-8'>
                     <img aria-hidden="true"
                         alt='true'
-                        className='w-full object-cover rounded-2xl'
-                        src="/assets/images/UI.jpg" />
+                        className='w-full object-cover rounded-xl'
+                        src="/assets/images/UI.png" />
                     <p></p>
                 </div>
 
@@ -37,7 +39,7 @@ export default function Banner() {
                 {/*  */}
 
                 <div className='lg:flex lg:py-14'>
-                    <div className='w-[50%] block'>
+                    <div className='w-[50%] block mb-8'>
                         <h3 className='text-xl'>About Us</h3>
                         <p className='text-xl opacity-[40%]'>Blueberry Club</p>
                     </div>
@@ -59,10 +61,10 @@ export default function Banner() {
                         <p className='text-xl opacity-[40%]'>Services</p>
 
 
-                        <p className='pt-6'>Designs that don’t just look
-                            good—they connect,
-                            convert, and leave a mark.</p>
-
+                        <p className='pt-6 opacity-[40%]'>Designs that don’t just look <br/>
+                            good—they connect,<br/>
+                            convert, and leave a mark.
+                        </p>
 
                     </div>
                     <div className=''>
@@ -77,10 +79,6 @@ export default function Banner() {
                         </ul>
                     </div>
                 </div>
-
-
-
-                {/*  */}
 
                 <div>
                     <div>
@@ -139,54 +137,52 @@ export default function Banner() {
                             </div>
                              <div className='flex border-color bg-white text-black border p-4 rounded-3xl'>
                                 <div className='w-[250px]'>
-                                      <svg
-                                    width={42}
-                                    height={42}
-                                    viewBox="0 0 42 42"
-                                    className='mb-6'
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <rect width={42} height={42} rx={16} fill="black" />
-                                    <rect
-                                        x="0.5"
-                                        y="0.5"
-                                        width={41}
-                                        height={41}
-                                        rx="15.5"
-                                        stroke="white"
-                                        strokeOpacity="0.4"
-                                    />
-                                    <path
-                                        d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
-
-                                <p className='text-black'>Figma</p>
-                                <p className='text-black '>Everthing we Code</p>
-                                <button className='btn-inspect-1'>Follow</button>
+                                    <svg
+                                        width={42}
+                                        height={42}
+                                        viewBox="0 0 42 42"
+                                        className='mb-6'
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <rect width={42} height={42} rx={16} fill="black" />
+                                        <rect
+                                            x="0.5"
+                                            y="0.5"
+                                            width={41}
+                                            height={41}
+                                            rx="15.5"
+                                            stroke="white"
+                                            strokeOpacity="0.4"
+                                        />
+                                        <path
+                                            d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                    </svg>
+                                    <p className='text-black'>Figma</p>
+                                    <p className='text-black'>Everthing we Code</p>
+                                    <button className='btn-inspect-1'>Follow</button>
                                 </div>
                                <div>
-                                  <img aria-hidden="true"                         className='w-full object-cover rounded-2xl'
- src='/assets/images/Figma-Image 1.png' alt='true' />
+                                  <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Figma-Image 1.png' alt='true' />
                                </div>
                             </div>
                             <div className='flex border-color border p-4 rounded-3xl'>
@@ -241,23 +237,17 @@ export default function Banner() {
  src='/assets/images/Maskgroup.png' alt='true' />
                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
 
-                {/*  */}
-
-                <div className='py-10 mb-20'>
-                    <h2 className='pt-[1.5vw] title-banner text-center'>
+                <div className='py-10 mb-20 mt-4'>
+                    <h2 className='pt-[1.5vw] title-banner-1 text-center'>
                         Have a project in mind? <br />
                         Let’s get to work.
                     </h2>
                     <button className='text-center block m-auto mt-12 border p-2 h-12 rounded-xl productBold pl-4 pr-4 bg-white text-black'>Get in Touch</button>
                 </div>
-
-
-                {/* footer */}
 
                 <div className='p-10 border border-color mb-6 rounded-3xl lg:flex justify-between'>
                     <div>
@@ -395,7 +385,7 @@ export default function Banner() {
                             </li>
                         </ul>
                     </div>
-                    <div>
+                    <div className='productregular'>
                         Crafted by Community_
                     </div>
                 </div>
