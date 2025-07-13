@@ -1,7 +1,6 @@
 import './App.css';
 import Home from './pages/Home';
 import { Route, Routes } from "react-router-dom";
-import { useEffect, useState } from 'react';
 import Scroll from './component/Smothscolling';
 
 // const Loader = () => {
@@ -12,7 +11,7 @@ import Scroll from './component/Smothscolling';
 //   </div>;
 // };
 function App() {
-  // const [loading, setLoading] = useState(true);
+  // cost [loading, setLoading] = useState(true);
 
   // useEffect(() => {
   //   const timer = setTimeout(() => {
@@ -32,11 +31,7 @@ function App() {
           <Scroll />
             <Routes>
               <Route exact path="/" element={<Home />} />
-              {/* <Route path="/contact" element={<Contact />} />
-              <Route path='start' element={<Startintake />} />
-              <Route path='expertises' element={<ExpertisePage />} />
-              <Route path='/portfolios' element={<Portfolios />} /> */}
-            </Routes>
+          </Routes>
         </>
       {/* )} */}
     </div>

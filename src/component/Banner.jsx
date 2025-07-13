@@ -5,12 +5,13 @@ export default function Banner() {
         <div className=''>
             {/* lg:h-screen !pt-10 !pb-20 lg:py-0 !mt-[6.400000000000002vw] */}
             <div className='container lg:h-screen !pt-10 !pb-20 lg:py-0 !mt-[6.400000000000002vw]'>
-                <div>
+                <div>   
                     <h2 className='title-banner text-center'>
                         We craft immersive, human- <br />
                         centric digital Products.
                     </h2>
-                    <button className='text-center opacity-400_b text-xs block m-auto mt-12 border p-2 rounded-2xl pl-4 pr-4 border-white'>Crafted by Community_</button>
+                    <button className='text-center opacity-400_b text-xs block m-auto mt-12 border p-2 rounded-2xl pl-4 pr-4 border-white'>Crafted by Community_
+</button>
                 </div>
                 <div className='lg:grid lg:grid-cols-2 gap-8 mt-16 mb-4'>
                     <div className='mb-4'>
@@ -70,6 +71,7 @@ export default function Banner() {
                     <div className=''>
                         <ul className='under-list'>
                             <li>UX Design</li>
+                            
                             <li>Interface Design</li>
                             <li>Design Systems</li>
                             <li>Custom Typefaces</li>
@@ -83,60 +85,59 @@ export default function Banner() {
                 <div>
                     <div>
                         <h2 className='text-xl productregular mb-8'>Official Accounts</h2>
-                        <div className='grid grid-cols-3 gap-2 mb-10'>
-                            <div className='flex border-color border p-4 rounded-3xl'>
-                                <div className='w-[250px]'>
-                                      <svg
-                                    width={42}
-                                    height={42}
-                                    viewBox="0 0 42 42"
-                                    className='mb-6'
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <rect width={42} height={42} rx={16} fill="black" />
-                                    <rect
-                                        x="0.5"
-                                        y="0.5"
-                                        width={41}
-                                        height={41}
-                                        rx="15.5"
-                                        stroke="white"
-                                        strokeOpacity="0.4"
-                                    />
-                                    <path
-                                        d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
-
+                        <div className='flex overflow-hidden overflow-x-scroll mb-10'>
+                            <div className='flex mr-6 border-color border p-4 rounded-3xl'>
+                                <div className='w-[350px]'>
+                                    <svg
+                                        width={42}
+                                        height={42}
+                                        viewBox="0 0 42 42"
+                                        className='mb-6'
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <rect width={42} height={42} rx={16} fill="black" />
+                                        <rect
+                                            x="0.5"
+                                            y="0.5"
+                                            width={41}
+                                            height={41}
+                                            rx="15.5"
+                                            stroke="white"
+                                            strokeOpacity="0.4"
+                                        />
+                                        <path
+                                            d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                    </svg>
                                 <p>GitHub</p>
                                 <p>Everthing we Code</p>
                                 <button className='btn-inspect'>Inspect</button>
                                 </div>
-                               <div>
+                               <div className='w-full'>
                                   <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Maskgroup.png' alt='true' />
                                </div>
                             </div>
-                             <div className='flex border-color bg-white text-black border p-4 rounded-3xl'>
-                                <div className='w-[250px]'>
+                             <div className='flex mr-6 border-color bg-white text-black border p-4 rounded-3xl'>
+                                <div className='w-[350px]'>
                                     <svg
                                         width={42}
                                         height={42}
@@ -181,12 +182,12 @@ export default function Banner() {
                                     <p className='text-black'>Everthing we Code</p>
                                     <button className='btn-inspect-1'>Follow</button>
                                 </div>
-                               <div>
-                                  <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Figma-Image 1.png' alt='true' />
+                               <div className='w-full'>
+                                  <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Figma-Image1.png' alt='true' />
                                </div>
                             </div>
-                            <div className='flex border-color border p-4 rounded-3xl'>
-                                <div className='w-[250px]'>
+                            <div className='flex mr-6 border-color border p-4 rounded-3xl'>
+                                <div className='w-[350px]'>
                                       <svg
                                     width={42}
                                     height={42}
@@ -232,9 +233,113 @@ export default function Banner() {
                                 <p>Studio Playlists</p>
                                 <button className='btn-inspect'>Listen</button>
                                 </div>
-                               <div>
-                                  <img aria-hidden="true"                         className='w-full object-cover rounded-2xl'
- src='/assets/images/Maskgroup.png' alt='true' />
+                               <div className='w-full'>
+                                  <img className="w-full" aria-hidden="true"                         className='w-full object-cover rounded-2xl'
+ src='/assets/images/Spotify-Image.png' alt='true' />
+                               </div>
+                            </div>
+                             <div className='flex mr-6 border-color border p-4 rounded-3xl'>
+                                <div className='w-[350px]'>
+                                      <svg
+                                    width={42}
+                                    height={42}
+                                    viewBox="0 0 42 42"
+                                    className='mb-6'
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect width={42} height={42} rx={16} fill="black" />
+                                    <rect
+                                        x="0.5"
+                                        y="0.5"
+                                        width={41}
+                                        height={41}
+                                        rx="15.5"
+                                        stroke="white"
+                                        strokeOpacity="0.4"
+                                    />
+                                    <path
+                                        d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
+                                        stroke="white"
+                                        strokeWidth="1.25"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                    <path
+                                        d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
+                                        stroke="white"
+                                        strokeWidth="1.25"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                    <path
+                                        d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
+                                        stroke="white"
+                                        strokeWidth="1.25"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                </svg>
+
+                                <p>Instagram</p>
+                                <p>Behind the Scenes</p>
+                                <button className='btn-inspect'>Like</button>
+                                </div>
+                               <div className="w-full">
+                                  <img  aria-hidden="true" className='w-full object-cover rounded-2xl h-[px]'
+ src='/assets/images/Instagram.png' alt='true' />
+                               </div>
+                            </div>
+                             <div className='flex border-color border p-4 rounded-3xl'>
+                                <div className='w-[350px]'>
+                                      <svg
+                                    width={42}
+                                    height={42}
+                                    viewBox="0 0 42 42"
+                                    className='mb-6'
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect width={42} height={42} rx={16} fill="black" />
+                                    <rect
+                                        x="0.5"
+                                        y="0.5"
+                                        width={41}
+                                        height={41}
+                                        rx="15.5"
+                                        stroke="white"
+                                        strokeOpacity="0.4"
+                                    />
+                                    <path
+                                        d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
+                                        stroke="white"
+                                        strokeWidth="1.25"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                    <path
+                                        d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
+                                        stroke="white"
+                                        strokeWidth="1.25"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                    <path
+                                        d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
+                                        stroke="white"
+                                        strokeWidth="1.25"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                </svg>
+
+                                <p>Behance</p>
+                                <p>Watch the Portfolio</p>
+                                <button className='btn-inspect'>Like</button>
+                                </div>
+                               <div className="w-full">
+                                  <img aria-hidden="true" className='w-full object-cover rounded-2xl h-[190px]'
+ src='/assets/images/Behance.jpg' alt='true' />
                                </div>
                             </div>
                         </div>
