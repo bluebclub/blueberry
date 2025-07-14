@@ -401,7 +401,10 @@ export default function Banner() {
                         Have a project in mind? <br />
                         Let’s get to work.
                     </h2>
-                    <button className='text-center block m-auto mt-12 border p-2 h-12 rounded-xl  pl-4 pr-4 bg-white text-black'>Get in Touch</button>
+                    <a href='https://www.instagram.com/blueb.club'>
+                        <button className='text-center block m-auto mt-12 border p-2 h-12 rounded-xl  pl-4 pr-4 bg-white text-black'>Get in Touch</button>
+                        
+                        </a>
                 </div>
 
                 <div className='p-10 border border-color mb-6 rounded-3xl lg:flex justify-between'>
