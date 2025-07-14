@@ -138,7 +138,7 @@ const Scroll = () => {
 
 
             <div>
-              <a href="/" className=' text-zoomed bg-white block font-bold text-center leading-[25px] h-12 w-32 rounded-2xl m-auto'>
+              <a href="https://www.instagram.com/blueb.club" className=' text-zoomed bg-white block font-bold text-center leading-[25px] h-12 w-32 rounded-2xl m-auto'>
                 Get in Touch
               </a>
             </div>

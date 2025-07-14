@@ -88,46 +88,49 @@ export default function Banner() {
                         <div className='flex overflow-hidden overflow-x-scroll mb-10'>
                             <div className='flex items-center mr-6 border-color border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
-                                    <svg
-                                        width={42}
-                                        height={42}
-                                        viewBox="0 0 42 42"
-                                        className='mb-6'
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <rect width={42} height={42} rx={16} fill="black" />
-                                        <rect
-                                            x="0.5"
-                                            y="0.5"
-                                            width={41}
-                                            height={41}
-                                            rx="15.5"
-                                            stroke="white"
-                                            strokeOpacity="0.4"
-                                        />
-                                        <path
-                                            d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                        <path
-                                            d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                        <path
-                                            d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                    </svg>
+                                    <a href='https://github.com/bluebclub'>
+                                        <svg
+                                            width={42}
+                                            height={42}
+                                            viewBox="0 0 42 42"
+                                            className='mb-6'
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <rect width={42} height={42} rx={16} fill="black" />
+                                            <rect
+                                                x="0.5"
+                                                y="0.5"
+                                                width={41}
+                                                height={41}
+                                                rx="15.5"
+                                                stroke="white"
+                                                strokeOpacity="0.4"
+                                            />
+                                            <path
+                                                d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
+                                                stroke="white"
+                                                strokeWidth="1.25"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                            />
+                                            <path
+                                                d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
+                                                stroke="white"
+                                                strokeWidth="1.25"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                            />
+                                            <path
+                                                d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
+                                                stroke="white"
+                                                strokeWidth="1.25"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                            />
+                                        </svg>
+                    
+                                    </a>
                                     <p>GitHub</p>
                                     <p>Everthing we Code</p>
                                     <button className='btn-inspect'>Inspect</button>
@@ -138,6 +141,7 @@ export default function Banner() {
                             </div>
                             <div className='flex items-center mr-6 border-color bg-white text-black border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
+                                    <a href='https://www.figma.com/@blueberryclub'>
                                     <svg
                                         width={42}
                                         height={42}
@@ -193,6 +197,7 @@ export default function Banner() {
                                             strokeLinejoin="round"
                                         />
                                     </svg>
+                                    </a>
 
                                     <p className='text-black'>Figma</p>
                                     <p className='text-black'>Everthing we Code</p>
@@ -204,56 +209,56 @@ export default function Banner() {
                             </div>
                             <div className='flex items-center mr-6 border-color border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
-                                    <svg
-                                        width={42}
-                                        height={42}
-                                        viewBox="0 0 42 42"
-                                        fill="none"
-                                        className='mb-6'
+                                    <a href='https://open.spotify.com/user/31xwb4ni62tok6bvkponrcd4dpte?si=MvzDYRZvTJ-Q1y5YIHZBVA' alt="behance">
+                                            <svg
+                                                width={42}
+                                                height={42}
+                                                viewBox="0 0 42 42"
+                                                fill="none"
+                                                className='mb-6'
 
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <rect width={42} height={42} rx={16} fill="black" />
-                                        <rect
-                                            x="0.5"
-                                            y="0.5"
-                                            width={41}
-                                            height={41}
-                                            rx="15.5"
-                                            stroke="white"
-                                            strokeOpacity="0.4"
-                                        />
-                                        <path
-                                            d="M16 24C16 24 20.5 23 25 25"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                        <path
-                                            d="M15.5 21C15.5 21 21.5 19.5 26.5 22.5"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                        <path
-                                            d="M15 18C18 17.5 23 17.0001 28 20"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                        <path
-                                            d="M21 31C15.4771 31 11 26.5228 11 21C11 15.4771 15.4771 11 21 11C26.5228 11 31 15.4771 31 21C31 26.5228 26.5228 31 21 31Z"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                    </svg>
-
-
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <rect width={42} height={42} rx={16} fill="black" />
+                                                <rect
+                                                    x="0.5"
+                                                    y="0.5"
+                                                    width={41}
+                                                    height={41}
+                                                    rx="15.5"
+                                                    stroke="white"
+                                                    strokeOpacity="0.4"
+                                                />
+                                                <path
+                                                    d="M16 24C16 24 20.5 23 25 25"
+                                                    stroke="white"
+                                                    strokeWidth="1.25"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                />
+                                                <path
+                                                    d="M15.5 21C15.5 21 21.5 19.5 26.5 22.5"
+                                                    stroke="white"
+                                                    strokeWidth="1.25"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                />
+                                                <path
+                                                    d="M15 18C18 17.5 23 17.0001 28 20"
+                                                    stroke="white"
+                                                    strokeWidth="1.25"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                />
+                                                <path
+                                                    d="M21 31C15.4771 31 11 26.5228 11 21C11 15.4771 15.4771 11 21 11C26.5228 11 31 15.4771 31 21C31 26.5228 26.5228 31 21 31Z"
+                                                    stroke="white"
+                                                    strokeWidth="1.25"
+                                                    strokeLinecap="round"
+                                                    strokeLinejoin="round"
+                                                />
+                                            </svg>
+                                    </a>
                                     <p>Spotify</p>
                                     <p>Studio Playlists</p>
                                     <button className='btn-inspect'>Listen</button>
@@ -265,45 +270,47 @@ export default function Banner() {
                             </div>
                             <div className='flex items-center mr-6 border-color border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
-                                    <svg
-                                        width={42}
-                                        height={42}
-                                        className='mb-6'
+                                    <a href='https://www.instagram.com/blueb.club' alt="insta">
+                                        <svg
+                                            width={42}
+                                            height={42}
+                                            className='mb-6'
 
-                                        viewBox="0 0 42 42"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <rect width={42} height={42} rx={16} fill="black" />
-                                        <rect
-                                            x="0.5"
-                                            y="0.5"
-                                            width={41}
-                                            height={41}
-                                            rx="15.5"
-                                            stroke="white"
-                                            strokeOpacity="0.4"
-                                        />
-                                        <path
-                                            d="M21 25C23.2091 25 25 23.2091 25 21C25 18.7909 23.2091 17 21 17C18.7909 17 17 18.7909 17 21C17 23.2091 18.7909 25 21 25Z"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                        <path
-                                            d="M12 25V17C12 14.2386 14.2386 12 17 12H25C27.7614 12 30 14.2386 30 17V25C30 27.7614 27.7614 30 25 30H17C14.2386 30 12 27.7614 12 25Z"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                        />
-                                        <path
-                                            d="M26.5 15.509L26.5092 15.4988"
-                                            stroke="white"
-                                            strokeWidth="1.25"
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        />
-                                    </svg>
+                                            viewBox="0 0 42 42"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <rect width={42} height={42} rx={16} fill="black" />
+                                            <rect
+                                                x="0.5"
+                                                y="0.5"
+                                                width={41}
+                                                height={41}
+                                                rx="15.5"
+                                                stroke="white"
+                                                strokeOpacity="0.4"
+                                            />
+                                            <path
+                                                d="M21 25C23.2091 25 25 23.2091 25 21C25 18.7909 23.2091 17 21 17C18.7909 17 17 18.7909 17 21C17 23.2091 18.7909 25 21 25Z"
+                                                stroke="white"
+                                                strokeWidth="1.25"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                            />
+                                            <path
+                                                d="M12 25V17C12 14.2386 14.2386 12 17 12H25C27.7614 12 30 14.2386 30 17V25C30 27.7614 27.7614 30 25 30H17C14.2386 30 12 27.7614 12 25Z"
+                                                stroke="white"
+                                                strokeWidth="1.25"
+                                            />
+                                            <path
+                                                d="M26.5 15.509L26.5092 15.4988"
+                                                stroke="white"
+                                                strokeWidth="1.25"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                            />
+                                        </svg>
+                                    </a>
 
 
                                     <p>Instagram</p>
@@ -317,6 +324,7 @@ export default function Banner() {
                             </div>
                             <div className='flex items-center border-color border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
+                                    <a href='https://www.behance.net/BlueberrysClub' alt="behance">
                                     <svg
                                         width={42}
                                         height={42}
@@ -372,6 +380,7 @@ export default function Banner() {
                                             strokeLinejoin="round"
                                         />
                                     </svg>
+                                    </a>
 
 
                                     <p>Behance</p>
