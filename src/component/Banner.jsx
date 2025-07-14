@@ -267,7 +267,10 @@ export default function Banner() {
                                     </a>
                                     <p>Spotify</p>
                                     <p>Studio Playlists</p>
+                                                                        <a href='https://open.spotify.com/user/31xwb4ni62tok6bvkponrcd4dpte?si=MvzDYRZvTJ-Q1y5YIHZBVA' alt="behance">
+
                                     <button className='btn-inspect'>Listen</button>
+                                    </a>
                                 </div>
                                 <div className='w-full'>
                                     <img aria-hidden="true" className='w-full object-cover rounded-2xl'
