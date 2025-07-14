@@ -133,7 +133,10 @@ export default function Banner() {
                                     </a>
                                     <p>GitHub</p>
                                     <p>Everthing we Code</p>
+                                                                        <a href='https://github.com/bluebclub'>
+
                                     <button className='btn-inspect'>Inspect</button>
+                                    </a>
                                 </div>
                                 <div className='w-full'>
                                     <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Maskgroup.png' alt='true' />
@@ -201,7 +204,10 @@ export default function Banner() {
 
                                     <p className='text-black'>Figma</p>
                                     <p className='text-black'>Everthing we Code</p>
+                                                                        <a href='https://www.figma.com/@blueberryclub'>
+
                                     <button className='btn-inspect-1'>Follow</button>
+                                    </a>
                                 </div>
                                 <div className='w-full'>
                                     <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Figma-Image1.png' alt='true' />
@@ -264,7 +270,7 @@ export default function Banner() {
                                     <button className='btn-inspect'>Listen</button>
                                 </div>
                                 <div className='w-full'>
-                                    <img className="w-full" aria-hidden="true" className='w-full object-cover rounded-2xl'
+                                    <img aria-hidden="true" className='w-full object-cover rounded-2xl'
                                         src='/assets/images/Spotify-Image.png' alt='true' />
                                 </div>
                             </div>
@@ -315,7 +321,10 @@ export default function Banner() {
 
                                     <p>Instagram</p>
                                     <p>Behind the Scenes</p>
+                                                                        <a href='https://open.spotify.com/user/31xwb4ni62tok6bvkponrcd4dpte?si=MvzDYRZvTJ-Q1y5YIHZBVA' alt="behance">
+
                                     <button className='btn-inspect'>Like</button>
+                                    </a>
                                 </div>
                                 <div className="w-full">
                                     <img aria-hidden="true" className='w-full object-cover rounded-2xl h-[px]'
@@ -385,7 +394,10 @@ export default function Banner() {
 
                                     <p>Behance</p>
                                     <p>Watch the Portfolio</p>
+                                                                        <a href='https://www.behance.net/BlueberrysClub' alt="behance">
+
                                     <button className='btn-inspect'>Like</button>
+                                    </a>
                                 </div>
                                 <div className="w-full">
                                     <img aria-hidden="true" className='w-full object-cover rounded-2xl h-[190px]'
