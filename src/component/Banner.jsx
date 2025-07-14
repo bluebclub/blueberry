@@ -5,33 +5,33 @@ export default function Banner() {
         <div className=''>
             {/* lg:h-screen !pt-10 !pb-20 lg:py-0 !mt-[6.400000000000002vw] */}
             <div className='container lg:h-screen !pt-10 !pb-20 lg:py-0 !mt-[6.400000000000002vw]'>
-                <div>   
+                <div>
                     <h2 className='title-banner text-center'>
                         We craft immersive, human- <br />
                         centric digital Products.
                     </h2>
-                    <button className='text-center opacity-400_b text-xs block m-auto mt-12 border p-2 rounded-2xl pl-4 pr-4 border-white'>Crafted by Community_
-</button>
+                    <button className='text-center opacity-400_b text-xs block m-auto mt-12 border p-2 rounded-2xl pl-4 type-font pr-4 border-white'>Crafted by Community_
+                    </button>
                 </div>
                 <div className='lg:grid lg:grid-cols-2 gap-8 mt-16 mb-4'>
                     <div className='mb-4'>
-                        <video loop autoPlay muted className='video w-full rounded-2xl'>
+                        <video loop autoPlay muted className='video w-full rounded-[32px]'>
                             <source src='/assets/images/Video-1.mp4' type="video/mp4"></source>
                         </video>
                     </div>
                     <div>
-                        <video loop autoPlay muted className='video w-full rounded-2xl'>
+                        <video loop autoPlay muted className='video w-full rounded-[32px]'>
                             <source src='/assets/images/Video-2.mp4' type="video/mp4"></source>
                         </video>
                     </div>
                 </div>
 
-                
 
-                <div className=' mt-8'>
+
+                <div className='mt-[20px]'>
                     <img aria-hidden="true"
                         alt='true'
-                        className='w-full object-cover rounded-xl'
+                        className='w-full object-cover'
                         src="/assets/images/UI.png" />
                     <p></p>
                 </div>
@@ -62,8 +62,8 @@ export default function Banner() {
                         <p className='text-xl opacity-[40%]'>Services</p>
 
 
-                        <p className='pt-6 opacity-[40%]'>Designs that don’t just look <br/>
-                            good—they connect,<br/>
+                        <p className='pt-6 opacity-[40%]'>Designs that don’t just look <br />
+                            good—they connect,<br />
                             convert, and leave a mark.
                         </p>
 
@@ -71,7 +71,7 @@ export default function Banner() {
                     <div className=''>
                         <ul className='under-list'>
                             <li>UX Design</li>
-                            
+
                             <li>Interface Design</li>
                             <li>Design Systems</li>
                             <li>Custom Typefaces</li>
@@ -86,7 +86,7 @@ export default function Banner() {
                     <div>
                         <h2 className='text-xl productregular mb-8'>Official Accounts</h2>
                         <div className='flex overflow-hidden overflow-x-scroll mb-10'>
-                            <div className='flex mr-6 border-color border p-4 rounded-3xl'>
+                            <div className='flex items-center mr-6 border-color border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
                                     <svg
                                         width={42}
@@ -128,219 +128,260 @@ export default function Banner() {
                                             strokeLinejoin="round"
                                         />
                                     </svg>
-                                <p>GitHub</p>
-                                <p>Everthing we Code</p>
-                                <button className='btn-inspect'>Inspect</button>
+                                    <p>GitHub</p>
+                                    <p>Everthing we Code</p>
+                                    <button className='btn-inspect'>Inspect</button>
                                 </div>
-                               <div className='w-full'>
-                                  <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Maskgroup.png' alt='true' />
-                               </div>
+                                <div className='w-full'>
+                                    <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Maskgroup.png' alt='true' />
+                                </div>
                             </div>
-                             <div className='flex mr-6 border-color bg-white text-black border p-4 rounded-3xl'>
+                            <div className='flex items-center mr-6 border-color bg-white text-black border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
                                     <svg
                                         width={42}
                                         height={42}
                                         viewBox="0 0 42 42"
-                                        className='mb-6'
                                         fill="none"
+                                        className='mb-6'
+
                                         xmlns="http://www.w3.org/2000/svg"
                                     >
-                                        <rect width={42} height={42} rx={16} fill="black" />
+                                        <rect width={42} height={42} rx={16} fill="white" />
                                         <rect
                                             x="0.5"
                                             y="0.5"
                                             width={41}
                                             height={41}
                                             rx="15.5"
-                                            stroke="white"
+                                            stroke="black"
                                             strokeOpacity="0.4"
                                         />
                                         <path
-                                            d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
-                                            stroke="white"
+                                            d="M15 15C15 14.2043 15.3161 13.4413 15.8787 12.8787C16.4413 12.3161 17.2043 12 18 12H21V18H18C17.2043 18 16.4413 17.6839 15.8787 17.1213C15.3161 16.5587 15 15.7957 15 15Z"
+                                            stroke="black"
                                             strokeWidth="1.25"
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                         />
                                         <path
-                                            d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
-                                            stroke="white"
+                                            d="M21 12H24C24.394 12 24.7841 12.0776 25.1481 12.2284C25.512 12.3791 25.8427 12.6001 26.1213 12.8787C26.3999 13.1573 26.6209 13.488 26.7716 13.852C26.9224 14.2159 27 14.606 27 15C27 15.394 26.9224 15.7841 26.7716 16.148C26.6209 16.512 26.3999 16.8427 26.1213 17.1213C25.8427 17.3999 25.512 17.6209 25.1481 17.7716C24.7841 17.9224 24.394 18 24 18H21V12Z"
+                                            stroke="black"
                                             strokeWidth="1.25"
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                         />
                                         <path
-                                            d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
-                                            stroke="white"
+                                            d="M21 21C21 20.606 21.0776 20.2159 21.2284 19.8519C21.3791 19.488 21.6001 19.1573 21.8787 18.8787C22.1573 18.6001 22.488 18.3791 22.8519 18.2284C23.2159 18.0776 23.606 18 24 18C24.394 18 24.7841 18.0776 25.1481 18.2284C25.512 18.3791 25.8427 18.6001 26.1213 18.8787C26.3999 19.1573 26.6209 19.488 26.7716 19.8519C26.9224 20.2159 27 20.606 27 21C27 21.394 26.9224 21.7841 26.7716 22.1481C26.6209 22.512 26.3999 22.8427 26.1213 23.1213C25.8427 23.3999 25.512 23.6209 25.1481 23.7716C24.7841 23.9224 24.394 24 24 24C23.606 24 23.2159 23.9224 22.8519 23.7716C22.488 23.6209 22.1573 23.3999 21.8787 23.1213C21.6001 22.8427 21.3791 22.512 21.2284 22.1481C21.0776 21.7841 21 21.394 21 21Z"
+                                            stroke="black"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M15 27C15 26.2044 15.3161 25.4413 15.8787 24.8787C16.4413 24.3161 17.2043 24 18 24H21V27C21 27.7956 20.6839 28.5587 20.1213 29.1213C19.5587 29.6839 18.7957 30 18 30C17.2043 30 16.4413 29.6839 15.8787 29.1213C15.3161 28.5587 15 27.7956 15 27Z"
+                                            stroke="black"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M15 21C15 20.2044 15.3161 19.4413 15.8787 18.8787C16.4413 18.3161 17.2043 18 18 18H21V24H18C17.2043 24 16.4413 23.6839 15.8787 23.1213C15.3161 22.5587 15 21.7956 15 21Z"
+                                            stroke="black"
                                             strokeWidth="1.25"
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                         />
                                     </svg>
+
                                     <p className='text-black'>Figma</p>
                                     <p className='text-black'>Everthing we Code</p>
                                     <button className='btn-inspect-1'>Follow</button>
                                 </div>
-                               <div className='w-full'>
-                                  <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Figma-Image1.png' alt='true' />
-                               </div>
-                            </div>
-                            <div className='flex mr-6 border-color border p-4 rounded-3xl'>
-                                <div className='w-[350px]'>
-                                      <svg
-                                    width={42}
-                                    height={42}
-                                    viewBox="0 0 42 42"
-                                    className='mb-6'
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <rect width={42} height={42} rx={16} fill="black" />
-                                    <rect
-                                        x="0.5"
-                                        y="0.5"
-                                        width={41}
-                                        height={41}
-                                        rx="15.5"
-                                        stroke="white"
-                                        strokeOpacity="0.4"
-                                    />
-                                    <path
-                                        d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
-
-                                <p>Spotify</p>
-                                <p>Studio Playlists</p>
-                                <button className='btn-inspect'>Listen</button>
+                                <div className='w-full'>
+                                    <img aria-hidden="true" className='w-full object-cover rounded-2xl' src='/assets/images/Figma-Image1.png' alt='true' />
                                 </div>
-                               <div className='w-full'>
-                                  <img className="w-full" aria-hidden="true"                         className='w-full object-cover rounded-2xl'
- src='/assets/images/Spotify-Image.png' alt='true' />
-                               </div>
                             </div>
-                             <div className='flex mr-6 border-color border p-4 rounded-3xl'>
+                            <div className='flex items-center mr-6 border-color border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
-                                      <svg
-                                    width={42}
-                                    height={42}
-                                    viewBox="0 0 42 42"
-                                    className='mb-6'
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <rect width={42} height={42} rx={16} fill="black" />
-                                    <rect
-                                        x="0.5"
-                                        y="0.5"
-                                        width={41}
-                                        height={41}
-                                        rx="15.5"
-                                        stroke="white"
-                                        strokeOpacity="0.4"
-                                    />
-                                    <path
-                                        d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
+                                    <svg
+                                        width={42}
+                                        height={42}
+                                        viewBox="0 0 42 42"
+                                        fill="none"
+                                        className='mb-6'
 
-                                <p>Instagram</p>
-                                <p>Behind the Scenes</p>
-                                <button className='btn-inspect'>Like</button>
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <rect width={42} height={42} rx={16} fill="black" />
+                                        <rect
+                                            x="0.5"
+                                            y="0.5"
+                                            width={41}
+                                            height={41}
+                                            rx="15.5"
+                                            stroke="white"
+                                            strokeOpacity="0.4"
+                                        />
+                                        <path
+                                            d="M16 24C16 24 20.5 23 25 25"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M15.5 21C15.5 21 21.5 19.5 26.5 22.5"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M15 18C18 17.5 23 17.0001 28 20"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M21 31C15.4771 31 11 26.5228 11 21C11 15.4771 15.4771 11 21 11C26.5228 11 31 15.4771 31 21C31 26.5228 26.5228 31 21 31Z"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                    </svg>
+
+
+                                    <p>Spotify</p>
+                                    <p>Studio Playlists</p>
+                                    <button className='btn-inspect'>Listen</button>
                                 </div>
-                               <div className="w-full">
-                                  <img  aria-hidden="true" className='w-full object-cover rounded-2xl h-[px]'
- src='/assets/images/Instagram.png' alt='true' />
-                               </div>
+                                <div className='w-full'>
+                                    <img className="w-full" aria-hidden="true" className='w-full object-cover rounded-2xl'
+                                        src='/assets/images/Spotify-Image.png' alt='true' />
+                                </div>
                             </div>
-                             <div className='flex border-color border p-4 rounded-3xl'>
+                            <div className='flex items-center mr-6 border-color border p-4 rounded-3xl'>
                                 <div className='w-[350px]'>
-                                      <svg
-                                    width={42}
-                                    height={42}
-                                    viewBox="0 0 42 42"
-                                    className='mb-6'
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <rect width={42} height={42} rx={16} fill="black" />
-                                    <rect
-                                        x="0.5"
-                                        y="0.5"
-                                        width={41}
-                                        height={41}
-                                        rx="15.5"
-                                        stroke="white"
-                                        strokeOpacity="0.4"
-                                    />
-                                    <path
-                                        d="M21 31C26.5228 31 31 26.5228 31 21C31 15.4771 26.5228 11 21 11C15.4771 11 11 15.4771 11 21C11 26.5228 15.4771 31 21 31Z"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M23.3333 28V26.137C23.3583 25.8275 23.3154 25.5163 23.2073 25.2242C23.0993 24.9321 22.9286 24.6657 22.7067 24.4428C24.8 24.2156 27 23.4431 27 19.8989C26.9998 18.9926 26.6418 18.121 26 17.4646C26.3039 16.6717 26.2824 15.7953 25.94 15.0174C25.94 15.0174 25.1533 14.7902 23.3333 15.9781C21.8053 15.5749 20.1947 15.5749 18.6667 15.9781C16.8467 14.7902 16.06 15.0174 16.06 15.0174C15.7176 15.7953 15.6961 16.6717 16 17.4646C15.3534 18.1259 14.995 19.0053 15 19.9183C15 23.4366 17.2 24.2091 19.2933 24.4622C19.074 24.6829 18.9048 24.9461 18.7969 25.2347C18.6889 25.5232 18.6445 25.8306 18.6667 26.137V28"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M18.6667 26.7018C16.6667 27.3335 15 26.7018 14 24.7544"
-                                        stroke="white"
-                                        strokeWidth="1.25"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
+                                    <svg
+                                        width={42}
+                                        height={42}
+                                        className='mb-6'
 
-                                <p>Behance</p>
-                                <p>Watch the Portfolio</p>
-                                <button className='btn-inspect'>Like</button>
+                                        viewBox="0 0 42 42"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <rect width={42} height={42} rx={16} fill="black" />
+                                        <rect
+                                            x="0.5"
+                                            y="0.5"
+                                            width={41}
+                                            height={41}
+                                            rx="15.5"
+                                            stroke="white"
+                                            strokeOpacity="0.4"
+                                        />
+                                        <path
+                                            d="M21 25C23.2091 25 25 23.2091 25 21C25 18.7909 23.2091 17 21 17C18.7909 17 17 18.7909 17 21C17 23.2091 18.7909 25 21 25Z"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M12 25V17C12 14.2386 14.2386 12 17 12H25C27.7614 12 30 14.2386 30 17V25C30 27.7614 27.7614 30 25 30H17C14.2386 30 12 27.7614 12 25Z"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                        />
+                                        <path
+                                            d="M26.5 15.509L26.5092 15.4988"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                    </svg>
+
+
+                                    <p>Instagram</p>
+                                    <p>Behind the Scenes</p>
+                                    <button className='btn-inspect'>Like</button>
                                 </div>
-                               <div className="w-full">
-                                  <img aria-hidden="true" className='w-full object-cover rounded-2xl h-[190px]'
- src='/assets/images/Behance.jpg' alt='true' />
-                               </div>
+                                <div className="w-full">
+                                    <img aria-hidden="true" className='w-full object-cover rounded-2xl h-[px]'
+                                        src='/assets/images/Instagram.png' alt='true' />
+                                </div>
+                            </div>
+                            <div className='flex items-center border-color border p-4 rounded-3xl'>
+                                <div className='w-[350px]'>
+                                    <svg
+                                        width={42}
+                                        height={42}
+                                        viewBox="0 0 42 42"
+                                        fill="none"
+                                        className='mb-6'
+
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <rect width={42} height={42} rx={16} fill="black" />
+                                        <rect
+                                            x="0.5"
+                                            y="0.5"
+                                            width={41}
+                                            height={41}
+                                            rx="15.5"
+                                            stroke="white"
+                                            strokeOpacity="0.4"
+                                        />
+                                        <path
+                                            d="M30 17V25C30 27.7614 27.7614 30 25 30H17C14.2386 30 12 27.7614 12 25V17C12 14.2386 14.2386 12 17 12H25C27.7614 12 30 14.2386 30 17Z"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M18.0986 20.8261C20.6338 20.8261 20.6338 25 18.0986 25C16.6685 25 15 25 15 25V20.8261M18.0986 20.8261C16.6685 20.8261 15 20.8261 15 20.8261M18.0986 20.8261C20.6338 20.8261 20.6338 17 18.0986 17C16.9718 17 15 17 15 17V20.8261"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M24.5 20C23.1193 20 22 21.1193 22 22.5H27C27 21.1193 25.8807 20 24.5 20Z"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M22 22.5C22 23.8807 23.1193 25 24.5 25C25.4276 25 25.9905 24.6776 26.3126 24.3802"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                        <path
+                                            d="M26 17.5H23"
+                                            stroke="white"
+                                            strokeWidth="1.25"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        />
+                                    </svg>
+
+
+                                    <p>Behance</p>
+                                    <p>Watch the Portfolio</p>
+                                    <button className='btn-inspect'>Like</button>
+                                </div>
+                                <div className="w-full">
+                                    <img aria-hidden="true" className='w-full object-cover rounded-2xl h-[190px]'
+                                        src='/assets/images/Behance.jpg' alt='true' />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -351,7 +392,7 @@ export default function Banner() {
                         Have a project in mind? <br />
                         Let’s get to work.
                     </h2>
-                    <button className='text-center block m-auto mt-12 border p-2 h-12 rounded-xl productBold pl-4 pr-4 bg-white text-black'>Get in Touch</button>
+                    <button className='text-center block m-auto mt-12 border p-2 h-12 rounded-xl  pl-4 pr-4 bg-white text-black'>Get in Touch</button>
                 </div>
 
                 <div className='p-10 border border-color mb-6 rounded-3xl lg:flex justify-between'>
@@ -437,6 +478,7 @@ export default function Banner() {
                                     <svg
                                         width={30}
                                         height={30}
+
                                         viewBox="0 0 30 30"
                                         fill="none"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -490,7 +532,7 @@ export default function Banner() {
                             </li>
                         </ul>
                     </div>
-                    <div className='productregular'>
+                    <div className='type-font'>
                         Crafted by Community_
                     </div>
                 </div>

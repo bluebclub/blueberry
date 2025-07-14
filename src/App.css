@@ -106,6 +106,17 @@ input:focus {
   src: url('./assets/fonst/Satoshi-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'type-machine';
+  src: url('./assets/fonst/TypeMachine.ttf');
+}
+
+.type-font{
+    font-family: 'type-machine';
+
+}
+
+
 .productregular {
   font-family: 'product-regular';
 
